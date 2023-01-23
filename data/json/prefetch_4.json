@@ -1,0 +1,17 @@
+{
+   "curl": [
+      "[<asm obj (ldr) @ 0x40ad44>, <asm obj (add) @ 0x40ad48>, <asm obj (ldr) @ 0x40ad4c>, <asm obj (movz) @ 0x40ad50>, <asm obj (ldr) @ 0x40ad54>]"
+   ],
+   "grep": [
+      "[<asm obj (ldrb) @ 0x40a07c>, <asm obj (add) @ 0x40a080>, <asm obj (ldurb) @ 0x40a084>, <asm obj (ldrb) @ 0x40a088>, <asm obj (add) @ 0x40a08c>, <asm obj (cbz) @ 0x40a090>, <asm obj (ldurb) @ 0x40a094>, <asm obj (ldrb) @ 0x40a098>]",
+      "[<asm obj (ldrb) @ 0x40a0a4>, <asm obj (add) @ 0x40a0a8>, <asm obj (ldurb) @ 0x40a0ac>, <asm obj (ldrb) @ 0x40a0b0>, <asm obj (add) @ 0x40a0b4>, <asm obj (cbz) @ 0x40a0b8>, <asm obj (ldurb) @ 0x40a0bc>, <asm obj (ldrb) @ 0x40a0c0>]",
+      "[<asm obj (ldrb) @ 0x40a0cc>, <asm obj (add) @ 0x40a0d0>, <asm obj (ldurb) @ 0x40a0d4>, <asm obj (ldrb) @ 0x40a0d8>, <asm obj (add) @ 0x40a0dc>, <asm obj (cbz) @ 0x40a0e0>, <asm obj (ldurb) @ 0x40a0e4>, <asm obj (ldrb) @ 0x40a0e8>]"
+   ],
+   "info": [
+      "[<asm obj (ldrb) @ 0x41a914>, <asm obj (cmp) @ 0x41a918>, <asm obj (b.ne) @ 0x41a91c>, <asm obj (add) @ 0x41a920>, <asm obj (ldrb) @ 0x41a924>, <asm obj (cmp) @ 0x41a928>, <asm obj (b.ne) @ 0x41a92c>, <asm obj (add) @ 0x41a930>, <asm obj (ldrb) @ 0x41a934>]"
+   ],
+   "sftp": [
+      "[<asm obj (ldrb) @ 0x418f80>, <asm obj (cmp) @ 0x418f84>, <asm obj (ldrb) @ 0x418f88>, <asm obj (add) @ 0x418f8c>, <asm obj (ldrb) @ 0x418f90>]",
+      "[<asm obj (ldrb) @ 0x41900c>, <asm obj (strb) @ 0x419010>, <asm obj (mov) @ 0x419014>, <asm obj (ldrb) @ 0x419018>, <asm obj (strb) @ 0x41901c>, <asm obj (b.eq) @ 0x419020>, <asm obj (ldrb) @ 0x419024>]"
+   ]
+}

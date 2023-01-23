@@ -1,0 +1,14 @@
+{
+   "aarch64-linux-gnu-cpp": [
+      "[<asm obj (ldrsw) @ 0x41d6dc>, <asm obj (cmp) @ 0x41d6e0>, <asm obj (cset) @ 0x41d6e4>, <asm obj (ret) @ 0x41d6e8>, <asm obj (ldr) @ 0x41d6ec>, <asm obj (cmp) @ 0x41d6f0>, <asm obj (cset) @ 0x41d6f4>, <asm obj (ret) @ 0x41d6f8>, <asm obj (ldrsw) @ 0x41d6fc>]",
+      "[<asm obj (ldr) @ 0x45e2f4>, <asm obj (ldrsw) @ 0x45e2f8>, <asm obj (ldrsw) @ 0x45e2fc>]",
+      "[<asm obj (ldr) @ 0x45e328>, <asm obj (str) @ 0x45e32c>, <asm obj (ldr) @ 0x45e330>, <asm obj (str) @ 0x45e334>, <asm obj (ldr) @ 0x45e338>]",
+      "[<asm obj (ldr) @ 0x489280>, <asm obj (ldr) @ 0x489284>, <asm obj (ldr) @ 0x489288>]"
+   ],
+   "aarch64-linux-gnu-cpp-9": [
+      "[<asm obj (ldrsw) @ 0x41d6dc>, <asm obj (cmp) @ 0x41d6e0>, <asm obj (cset) @ 0x41d6e4>, <asm obj (ret) @ 0x41d6e8>, <asm obj (ldr) @ 0x41d6ec>, <asm obj (cmp) @ 0x41d6f0>, <asm obj (cset) @ 0x41d6f4>, <asm obj (ret) @ 0x41d6f8>, <asm obj (ldrsw) @ 0x41d6fc>]",
+      "[<asm obj (ldr) @ 0x45e2f4>, <asm obj (ldrsw) @ 0x45e2f8>, <asm obj (ldrsw) @ 0x45e2fc>]",
+      "[<asm obj (ldr) @ 0x45e328>, <asm obj (str) @ 0x45e32c>, <asm obj (ldr) @ 0x45e330>, <asm obj (str) @ 0x45e334>, <asm obj (ldr) @ 0x45e338>]",
+      "[<asm obj (ldr) @ 0x489280>, <asm obj (ldr) @ 0x489284>, <asm obj (ldr) @ 0x489288>]"
+   ]
+}
