@@ -1,0 +1,8 @@
+{
+   "monitor.o": [
+      "[<asm obj (add) @ 0x4000e4>, <asm obj (cmp) @ 0x4000e8>, <asm obj (ble) @ 0x4000ec>, <asm obj (ldr) @ 0x4000f0>, <asm obj (ldr) @ 0x4000f4>, <asm obj (ldr) @ 0x4000f8>, <asm obj (cmp) @ 0x4000fc>, <asm obj (bne) @ 0x400100>, <asm obj (ldr) @ 0x400104>]",
+      "[<asm obj (b) @ 0x4001d8>, <asm obj (cmp) @ 0x4001dc>, <asm obj (ble) @ 0x4001e0>, <asm obj (ldr) @ 0x4001e4>, <asm obj (mov) @ 0x4001e8>, <asm obj (add) @ 0x4001ec>, <asm obj (ldr) @ 0x4001f0>, <asm obj (blx) @ 0x4001f4>, <asm obj (ldr) @ 0x4001f8>, <asm obj (bl) @ 0x4001fc>, <asm obj (ldr) @ 0x400200>]",
+      "[<asm obj (mov) @ 0x400294>, <asm obj (stm) @ 0x400298>, <asm obj (b) @ 0x40029c>, <asm obj (ldr) @ 0x4002a0>, <asm obj (mov) @ 0x4002a4>, <asm obj (ldr) @ 0x4002a8>, <asm obj (strb) @ 0x4002ac>, <asm obj (bl) @ 0x4002b0>, <asm obj (b) @ 0x4002b4>, <asm obj (ldr) @ 0x4002b8>, <asm obj (mov) @ 0x4002bc>, <asm obj (ldr) @ 0x4002c0>]",
+      "[<asm obj (strb) @ 0x4002c4>, <asm obj (bl) @ 0x4002c8>, <asm obj (b) @ 0x4002cc>, <asm obj (ldr) @ 0x4002d0>, <asm obj (mov) @ 0x4002d4>, <asm obj (ldr) @ 0x4002d8>, <asm obj (strb) @ 0x4002dc>, <asm obj (bl) @ 0x4002e0>, <asm obj (b) @ 0x4002e4>, <asm obj (ldr) @ 0x4002e8>, <asm obj (ldrh) @ 0x4002ec>, <asm obj (cmp) @ 0x4002f0>, <asm obj (beq) @ 0x4002f4>, <asm obj (ldr) @ 0x4002f8>]"
+   ]
+}

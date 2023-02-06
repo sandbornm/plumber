@@ -9,18 +9,26 @@ import subprocess
 import json
 
 
-def save_json(data_dict, pattern_name, filename=None):
-    if filename is not None:
-        fname = filename
-    else:
-        fname = f"{pattern_name}_{len(data_dict)}"
+def save_json(data_dict, pattern_name, arch, filename):
+    fname = f"{filename}_{arch}_{pattern_name}.json"
     
-    with open("/home/michael/projects/plumber/data/json/" + fname + ".json", 'w') as f:
+    with open("/home/michael/projects/plumber/data/json/" + fname, 'w') as f:
         json.dump(data_dict, f, indent=3)
 
-def scan_one(bin_file, pattern_file):
-    matches = main(bin_file, pattern_file)
-    return matches
+def scan_one(bin_file, arch, pattern_file, save=True):
+
+    bin_name = bin_file.split("/")[-1]
+    pat_name = pattern_file.split("/")[-1][:-4]
+
+    # cast results to string
+    matches = [str(m) for m in main(bin_file, pattern_file)]
+
+    pat_dict = {bin_name: matches}
+
+    if save:
+        save_json(pat_dict, pat_name, arch, filename=bin_name)
+
+    return pat_dict
 
 
 def filter_files(folder_path):
@@ -75,10 +83,17 @@ def run(folder_path, pattern_file):
 
 if __name__ == "__main__":
     
-    bin_folder = sys.argv[1]
-    pattern_file = sys.argv[2]
-    assert os.path.exists(bin_folder), f"{bin_folder} does not exist!"
-    run(bin_folder, pattern_file)
+    # bin_folder = sys.argv[1]
+    # pattern_file = sys.argv[2]
+    # assert os.path.exists(bin_folder), f"{bin_folder} does not exist!"
+    #run(bin_folder, pattern_file)
     #amp_c9_bin = "/home/michael/projects/plumber/data/amp_bins/program_c"
-    #scan_one(amp_c9_bin, "./previction.pat")
+    
+    obj_path = "/home/michael/projects/plumber/data/amp_bins/obj_files"
+    #"/home/michael/projects/plumber/data/test_bins/hello"
+    arch = "arm32"
+    pat = "./previction.pat"
+    for obj_file in os.listdir(obj_path):
+        print(f"scanning {obj_file} for {pat} vulns")
+        scan_one(os.path.join(obj_path, obj_file), arch, pat)
     

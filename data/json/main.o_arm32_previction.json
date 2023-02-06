@@ -1,0 +1,5 @@
+{
+   "main.o": [
+      "[<asm obj (str) @ 0x4000f0>, <asm obj (bl) @ 0x4000f4>, <asm obj (add) @ 0x4000f8>, <asm obj (ldr) @ 0x4000fc>, <asm obj (ldr) @ 0x400100>, <asm obj (bl) @ 0x400104>, <asm obj (ldr) @ 0x400108>, <asm obj (mov) @ 0x40010c>, <asm obj (mov) @ 0x400110>, <asm obj (ldr) @ 0x400114>]"
+   ]
+}

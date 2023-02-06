@@ -1,0 +1,5 @@
+{
+   "transport.o": [
+      "[<asm obj (beq) @ 0x4000a0>, <asm obj (cmp) @ 0x4000a4>, <asm obj (bne) @ 0x4000a8>, <asm obj (ldr) @ 0x4000ac>, <asm obj (uxtb) @ 0x4000b0>, <asm obj (ldr) @ 0x4000b4>, <asm obj (cmp) @ 0x4000b8>, <asm obj (beq) @ 0x4000bc>, <asm obj (ldr) @ 0x4000c0>, <asm obj (bl) @ 0x4000c4>, <asm obj (bl) @ 0x4000c8>, <asm obj (b) @ 0x4000cc>, <asm obj (ldr) @ 0x4000d0>]"
+   ]
+}

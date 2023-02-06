@@ -165,3 +165,7 @@ state.json
 uart.log
 *.ini
 !*.template.ini
+
+
+.idea/*
+data/plumber_arm_bins/*
